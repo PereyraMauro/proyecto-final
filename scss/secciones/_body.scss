@@ -1,0 +1,32 @@
+
+/* BODY */
+
+.body {
+    background-image: url(https://images.pexels.com/photos/10831659/pexels-photo-10831659.jpeg);
+    background-size: cover;
+}
+
+/* BODY GALERIA. */
+
+.carrusel img {
+    transition: .5s;
+}
+
+/* BODY PRECIOS */
+/* MAIN TABLA */
+.css-precios {
+    min-height: 74vh;
+    display: flex;
+    justify-content: center;
+}
+
+.div-table th {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.div-table td {
+    color: white;
+    width: 300px;
+}
+

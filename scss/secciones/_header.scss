@@ -1,0 +1,44 @@
+/* HEADER - NAVBAR */
+.header {
+    height: 35vh;
+    &__navbar-css{
+        background-color: transparent;
+    }
+        a {
+            @extend %colorLetra;
+    }
+     .dropdown-menu.show {
+        display: inline-block;
+    }
+    .desplegable {
+        background-color: transparent;
+        .desplegable a {
+            @extend %colorLetra;
+        }
+    }
+    
+}
+
+//  .navbar-css {
+//     background-color: transparent;
+//  }
+
+//  .header {
+//      height: 35vh;
+//  }
+
+// .navbar-css a {
+//     color: white;
+// }
+
+// .dropdown-menu.show {
+//     display: inline-block;
+// }
+
+// .desplegable {
+//     background-color: transparent;
+// }
+
+// .desplegable a {
+//     color: white;
+// }

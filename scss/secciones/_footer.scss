@@ -1,0 +1,154 @@
+
+/* FOOTER */
+.footer {
+    display: flex;
+    align-items: center;
+    height: 210px;
+    justify-content: center;
+    padding: 550px 0px 0px 0px;
+
+    a {
+        display: flex;
+    }
+}
+
+// .footer a {
+//     display: flex;
+// }
+
+/* FOOTER FAQ */
+.footer-faq {
+    display: flex;
+    align-items: center;
+    height: 210px;
+    justify-content: center;
+    a {
+        display: flex;
+    }
+}
+
+// .footer-faq a {
+//     display: flex;
+// }
+
+/* FOOTER GALERIA */
+.footer-galeria {
+    display: flex;
+    align-items: center;
+    height: 210px;
+    justify-content: center;
+    a {
+        display: flex;
+    }
+}
+
+// .footer-galeria a {
+//     display: flex;
+// }
+
+/* FOOTER CONTACTO */
+.footer-contacto {
+    display: flex;
+    align-items: center;
+    height: 210px;
+    justify-content: center;
+    a {
+        display: flex;
+    }
+}
+
+// .footer-contacto a {
+//     display: flex;
+// }
+
+/* FOOTER PRECIOS */
+.footer-precios {
+    display: flex;
+    align-items: center;
+    height: 0px;
+    justify-content: center;
+    a {
+        display: flex;
+    }
+}
+
+// .footer-precios a {
+//     display: flex;
+// }
+
+/* REDES SOCIALES */
+.redes-sociales {
+    display: flex;
+    height: 20vh;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    ul {
+        display: flex;
+    height: 20vh;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    li {
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        a {
+            display: block;
+            padding: 0 10px;
+            color: white;
+            line-height: 50px;
+            font-size: 40px;
+            transition: .2s;
+        }
+    }
+    }
+}
+
+// .redes-sociales ul {
+//     display: flex;
+//     height: 20vh;
+//     width: 300px;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+// .redes-sociales ul li {
+//     display: inline-block;
+//     margin: 0 5px;
+//     width: 50px;
+//     height: 50px;
+//     text-align: center;
+// }
+
+// .redes-sociales ul li a {
+//     display: block;
+//     padding: 0 10px;
+//     color: white;
+//     line-height: 50px;
+//     font-size: 40px;
+//     transition: .2s;
+// }
+
+.redes-sociales ul:hover a {
+    filter: blur(2px);
+}
+
+.redes-sociales ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.redes-sociales ul li .facebook:hover {
+    background-color: #3b5999;
+}
+
+.redes-sociales ul li .instagram:hover {
+    background-color: #e6173d;
+}
+
+.redes-sociales ul li .whatsapp:hover {
+    background-color: #25d366;
+}

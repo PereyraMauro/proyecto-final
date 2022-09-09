@@ -1,0 +1,12 @@
+%colorLetra {
+    color: white;
+}
+
+
+// MIXIN
+
+@mixin estiloTexto ($size) {
+    color: white;
+    font-size: $size;
+    text-align: center;
+}
