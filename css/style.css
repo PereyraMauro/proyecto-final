@@ -260,3 +260,23 @@
     width: 300px; }
   .extra {
     height: 201px; } }
+
+@media (max-width: 610px) {
+  .body-contacto iframe {
+    width: 500px;
+    height: 300px; } }
+
+@media (max-width: 610px) {
+  .body-contacto iframe {
+    width: 500px;
+    height: 300px; } }
+
+@media (max-width: 510px) {
+  .body-contacto iframe {
+    width: 400px;
+    height: 300px; } }
+
+@media (max-width: 425px) {
+  .body-contacto iframe {
+    width: 300px;
+    height: 300px; } }
