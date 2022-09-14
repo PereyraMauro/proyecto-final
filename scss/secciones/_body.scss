@@ -17,7 +17,11 @@
 }
 
 /* BODY PRECIOS */
-/* MAIN TABLA */
+/* GRID PRECIOS */
+.body-precios{
+    min-height: 70vh;
+}
+
 .grid-precios {
     border: 2px solid white;
     border-radius: 3px;

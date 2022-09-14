@@ -27,6 +27,13 @@
 }
 
 // Medias background
+@media (max-width: 934px) {
+    .body-precios {
+        background-repeat: no-repeat;
+        min-height: 80vh;
+    }
+}
+
 @media (max-width: 768px) {
     .body {
         background-repeat: no-repeat;
