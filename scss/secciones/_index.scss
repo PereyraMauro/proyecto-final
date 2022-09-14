@@ -9,3 +9,14 @@
 .h2 {
     @include estiloTexto(300%);
 }
+
+.body-index {
+    filter: contrast(3px) ;
+    box-shadow: 0px 0px 25px #222;
+}
+
+.texto-bienvenida {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
