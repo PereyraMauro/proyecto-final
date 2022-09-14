@@ -94,6 +94,10 @@
             width: 500px;
         }
     }
+
+    .extra {
+        height: 333px;
+    }
 }
 
 @media (max-width: 500px){
@@ -101,6 +105,10 @@
         img {
             width: 400px;
         }
+    }
+
+    .extra {
+        height: 271px;
     }
 }
 
@@ -110,4 +118,9 @@
             width: 300px;
         }
     }
+
+    .extra {
+        height: 201px;
+    }
 }
+

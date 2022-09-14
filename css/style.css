@@ -31,6 +31,9 @@
 .carrusel img {
   transition: .5s; }
 
+.extra {
+  height: 466px; }
+
 /* BODY PRECIOS */
 /* MAIN TABLA */
 .css-precios {
@@ -224,12 +227,18 @@
 
 @media (max-width: 768px) {
   .carousel img {
-    width: 500px; } }
+    width: 500px; }
+  .extra {
+    height: 333px; } }
 
 @media (max-width: 500px) {
   .carousel img {
-    width: 400px; } }
+    width: 400px; }
+  .extra {
+    height: 271px; } }
 
 @media (max-width: 375px) {
   .carousel img {
-    width: 300px; } }
+    width: 300px; }
+  .extra {
+    height: 201px; } }
