@@ -1,0 +1,88 @@
+// Medias de h1 y h2
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 350%;
+    }
+    .h2 {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 425px) {
+    .h1 {
+        font-size: 200%;
+    }
+    .h2 {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 375px) {
+    .h1 {
+        font-size: 200%;
+    }
+    .h2 {
+        font-size: 150%;
+    }
+}
+
+// Medias background
+@media (max-width: 768px) {
+    .body {
+        background-repeat: no-repeat;
+    }
+}
+
+// Media footers
+@media (max-width: 768px) {
+    .footer-precios {
+        height: 0px;
+        padding: 150px 0px 40px 0px;
+    }
+    .redes-sociales {
+        height: 0px;
+        padding: 0px 0px 40px 0px;
+    }
+    .redes-sociales ul {
+        height: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    // FOOTER INDEX
+    .footer {
+        height: 0px;
+        padding: 250px 0px 40px 0px;
+    }
+    .redes-sociales {
+        height: 0px;
+        padding: 0px 0px 40px 0px;
+    }
+    .redes-sociales ul {
+        height: 0px;
+    }
+    // FOOTER FAQ
+    .footer-faq {
+        height: 0px;
+        padding: 250px 0px 40px 0px;
+    }
+    .redes-sociales {
+        height: 0px;
+        padding: 0px 0px 40px 0px;
+    }
+    .redes-sociales ul {
+        height: 0px;
+    }
+    // FOOTER PRECIOS
+    .footer-precios {
+        height: 0px;
+        padding: 150px 0px 40px 0px;
+    }
+    .redes-sociales {
+        height: 0px;
+        padding: 0px 0px 40px 0px;
+    }
+    .redes-sociales ul {
+        height: 0px;
+    }
+}
