@@ -18,20 +18,15 @@
 
 /* BODY PRECIOS */
 /* MAIN TABLA */
-.css-precios {
-    min-height: 74vh;
-    display: flex;
-    justify-content: center;
-}
-
-.div-table th {
-    background: rgb(0, 0, 0);
-    color: white;
-}
-
-.div-table td {
-    color: white;
-    width: 300px;
+.grid-precios {
+    border: 2px solid white;
+    border-radius: 3px;
+    div {
+        color: white;
+    }
+    div.col {
+        border: 1px solid white;
+    }
 }
 
 // FAQ

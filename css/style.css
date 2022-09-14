@@ -36,18 +36,13 @@
 
 /* BODY PRECIOS */
 /* MAIN TABLA */
-.css-precios {
-  min-height: 74vh;
-  display: flex;
-  justify-content: center; }
-
-.div-table th {
-  background: black;
-  color: white; }
-
-.div-table td {
-  color: white;
-  width: 300px; }
+.grid-precios {
+  border: 2px solid white;
+  border-radius: 3px; }
+  .grid-precios div {
+    color: white; }
+  .grid-precios div.col {
+    border: 1px solid white; }
 
 .accordion-item {
   background-color: transparent;
