@@ -86,3 +86,28 @@
         height: 0px;
     }
 }
+
+// Imagenes carrusel
+@media (max-width: 768px) {
+    .carousel {
+        img {
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .carousel {
+        img {
+            width: 400px;
+        }
+    }
+}
+
+@media (max-width: 375px){
+    .carousel {
+        img{
+            width: 300px;
+        }
+    }
+}
