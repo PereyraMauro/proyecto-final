@@ -12,10 +12,6 @@
     }
 }
 
-// .footer a {
-//     display: flex;
-// }
-
 /* FOOTER FAQ */
 .footer-faq {
     display: flex;
@@ -26,10 +22,6 @@
         display: flex;
     }
 }
-
-// .footer-faq a {
-//     display: flex;
-// }
 
 /* FOOTER GALERIA */
 .footer-galeria {
@@ -42,10 +34,6 @@
     }
 }
 
-// .footer-galeria a {
-//     display: flex;
-// }
-
 /* FOOTER CONTACTO */
 .footer-contacto {
     display: flex;
@@ -57,9 +45,6 @@
     }
 }
 
-// .footer-contacto a {
-//     display: flex;
-// }
 
 /* FOOTER PRECIOS */
 .footer-precios {
@@ -71,10 +56,6 @@
         display: flex;
     }
 }
-
-// .footer-precios a {
-//     display: flex;
-// }
 
 /* REDES SOCIALES */
 .redes-sociales {
@@ -106,31 +87,6 @@
     }
     }
 }
-
-// .redes-sociales ul {
-//     display: flex;
-//     height: 20vh;
-//     width: 300px;
-//     align-items: center;
-//     justify-content: center;
-// }
-
-// .redes-sociales ul li {
-//     display: inline-block;
-//     margin: 0 5px;
-//     width: 50px;
-//     height: 50px;
-//     text-align: center;
-// }
-
-// .redes-sociales ul li a {
-//     display: block;
-//     padding: 0 10px;
-//     color: white;
-//     line-height: 50px;
-//     font-size: 40px;
-//     transition: .2s;
-// }
 
 .redes-sociales ul:hover a {
     filter: blur(2px);
